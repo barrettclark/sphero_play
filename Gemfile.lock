@@ -1,0 +1,45 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    active_support (3.0.0)
+      activesupport (= 3.0.0)
+    activesupport (3.0.0)
+    artoo (0.2.0)
+      active_support (~> 3.0)
+      celluloid-io (~> 0.12)
+      multi_json (~> 1.6)
+      rake (~> 10.0)
+      reel (~> 0.3)
+    celluloid (0.12.4)
+      facter (>= 1.6.12)
+      timers (>= 1.0.0)
+    celluloid-io (0.12.1)
+      celluloid (~> 0.12.0)
+      nio4r (>= 0.4.0)
+    certified (0.1.1)
+    facter (1.6.17)
+    http (0.4.0)
+      certified
+      http_parser.rb
+    http_parser.rb (0.5.3)
+    hybridgroup-sphero (1.2.0)
+    multi_json (1.6.1)
+    nio4r (0.4.3)
+    rack (1.5.2)
+    rake (10.0.3)
+    reel (0.3.0)
+      celluloid-io (>= 0.8.0)
+      http (>= 0.2.0)
+      http_parser.rb (>= 0.5.3)
+      rack (>= 1.4.0)
+      websocket_parser (>= 0.1.0)
+    timers (1.1.0)
+    websocket_parser (0.1.2)
+      http
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  artoo
+  hybridgroup-sphero
